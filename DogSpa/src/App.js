@@ -6,12 +6,10 @@ import Checkout from "./components/BookVisit";
 
 function App() {
   const [Package, setPackage] = useState({
-    basil: false,
-    cheese: false,
-    mushroom: false,
-    olive: false,
-    pineapple: false,
-    tomato: false,
+    Premium_Groom: false,
+    Cut_Style_Beyond: false,
+    Bath_brush_Beyond: false,
+  
   });
 
   useEffect(() => {
